@@ -1,4 +1,5 @@
 import ColorMix from "./ColorMixer"
+import Gradient from "./GradientColor"
 import NumToHexConv from "./NumToHexConv"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div style={{display:"flex"}}>
     <ColorMix/>
     <NumToHexConv/>
+    <Gradient/>
     </div>
     </>
   )
